@@ -32,6 +32,7 @@ vagrant@iac-control1:~$ git clone https://github.com/scarleaf/goorm_7th_ansible_
 ```
 ## Install ansible
 ```bash
+vagrant@iac-control1:~$ sudo apt update
 vagrant@iac-control1:~$ sudo apt install software-properties-common
 vagrant@iac-control1:~$ sudo add-apt-repository --yes --update ppa:ansible/ansible
 vagrant@iac-control1:~$ sudo apt install ansible
