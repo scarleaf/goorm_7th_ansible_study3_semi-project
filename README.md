@@ -162,3 +162,6 @@ MariaDB [mysql]> select host, user, password from user;
 +---------------+-----------+-------------------------------------------+
 2 rows in set (0.001 sec)
 ```
+```bash
+vagrant@iac-node2:~$ sudo systemctl restart mariadb
+```
