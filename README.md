@@ -165,3 +165,6 @@ MariaDB [mysql]> select host, user, password from user;
 ```bash
 vagrant@iac-node2:~$ sudo systemctl restart mariadb
 ```
+
+![image](https://user-images.githubusercontent.com/21136917/203802709-a045b00e-9f93-4e0d-b0a8-f4759d779cac.png)
+
