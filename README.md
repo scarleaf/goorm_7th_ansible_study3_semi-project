@@ -153,9 +153,6 @@ Query OK, 1 row affected (0,00 sec)
 MariaDB [mysql]> flush privileges;
 Query OK, 1 row affected (0,00 sec)
 
-MariaDB [mysql]> select host,user,password from user;
-Query OK, 1 row affected (0,00 sec)
-
 MariaDB [mysql]> select host, user, password from user;
 +---------------+-----------+-------------------------------------------+
 | host          | user      | password                                  |
