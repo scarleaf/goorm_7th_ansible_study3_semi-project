@@ -121,7 +121,7 @@ vagrant@iac-node2:~$ sudo vim /etc/mysql/mariadb.conf.d/50-server.cnf
 bind-address            = 0.0.0.0
 
 # MariaDB wordpress database 생성, 사용자 생성 및 권한 부여
-vagrant@iac-node2:~$ sudo mysql
+vagrant@iac-node2:~$ sudo mariadb
 ```
 ```sql
 Welcome to the MariaDB monitor.  Commands end with ; or \g.
