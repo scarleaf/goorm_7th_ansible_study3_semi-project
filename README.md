@@ -53,20 +53,23 @@ Enter same passphrase again: (엔터)
 Your identification has been saved in /home/vagrant/.ssh/id_rsa
 Your public key has been saved in /home/vagrant/.ssh/id_rsa.pub
 The key fingerprint is:
-SHA256:H0Wy4va5uCgACqYbREmH2Co1EzhF63sPMCkYyjPXvQQ vagrant@iac-control1
+SHA256:ebcRtECMofrVBTf/70ouS1jxTK6yh7RXjCThbBwPXJA vagrant@iac-control1
 The key's randomart image is:
 +---[RSA 3072]----+
-|o**o      . .    |
-|++*.       +     |
-|o+.o E  . . .    |
-|O= .. o. . .     |
-|@==. . oS .      |
-|+.=+  ...o o     |
-| o..o  .  +      |
-|.  ..o . . .     |
-|     .o o..      |
+|        .*=+=    |
+|       .. E= +   |
+|      .  + == o  |
+|     .   o*.oB . |
+|    .   S.oo+o+ .|
+|     . . ..+.+o .|
+|      .  .oo+.. .|
+|          o++o . |
+|          .o.oo..|
 +----[SHA256]-----+
 /usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/vagrant/.ssh/id_rsa.pub"
+The authenticity of host '192.168.56.21 (192.168.56.21)' can't be established.
+ECDSA key fingerprint is SHA256:nXuKuMjdnqAAgG1kYBXW5cuC6Y1JhV79P2L8tj66kyU.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? (yes)
 /usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
 /usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
 vagrant@192.168.56.21's password: (비밀번호: vagrant)
@@ -77,6 +80,9 @@ Now try logging into the machine, with:   "ssh '192.168.56.21'"
 and check to make sure that only the key(s) you wanted were added.
 
 /usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/vagrant/.ssh/id_rsa.pub"
+The authenticity of host '192.168.56.22 (192.168.56.22)' can't be established.
+ECDSA key fingerprint is SHA256:dDy0o8DbfKUpQID1YpzwyhHk34VefFyW1tyuEjJ/rRc.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? (yes)
 /usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
 /usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
 vagrant@192.168.56.22's password: (비밀번호: vagrant)
@@ -87,7 +93,7 @@ Now try logging into the machine, with:   "ssh '192.168.56.22'"
 and check to make sure that only the key(s) you wanted were added.
 
 # 192.168.56.21:22 SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.5
-# 192.168.56.22:22 SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.
+# 192.168.56.22:22 SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.5
 ```
 
 ## ping test
