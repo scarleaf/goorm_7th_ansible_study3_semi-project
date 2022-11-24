@@ -64,6 +64,7 @@
       name: php-zip
       state: present
   - name: Install mariadb-client
+    apt:
       name: mariadb-client
       state: present
 
