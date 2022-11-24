@@ -9,3 +9,19 @@
 5. ansible-playbook 실행
 6. DB Server 설정
 
+# 1. vagrant 설치 - 생략
+
+# 2. 가상환경 (VirtualBox) 설치 - 생략
+
+# vagrant 세팅
+```shell
+$ cd ./iac
+$ vagrant up
+$ vagrant ssh iac-control1
+```
+
+# Control(Master) Node 세팅
+
+```shell
+
+```
